@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490C3BC71EDCC77200E662BD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C3BC61EDCC77200E662BD /* Location.swift */; };
+		490C3BCB1EDCCA4400E662BD /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C3BCA1EDCCA4400E662BD /* LocationTests.swift */; };
 		496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C31ED957AA001ABBFF /* AppDelegate.swift */; };
 		496BF8C61ED957AA001ABBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C51ED957AA001ABBFF /* ViewController.swift */; };
 		496BF8C91ED957AA001ABBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BF8C71ED957AA001ABBFF /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490C3BC61EDCC77200E662BD /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		490C3BCA1EDCCA4400E662BD /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		496BF8C01ED957AA001ABBFF /* TDDWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496BF8C31ED957AA001ABBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496BF8C51ED957AA001ABBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				496BF8CC1ED957AA001ABBFF /* LaunchScreen.storyboard */,
 				496BF8CF1ED957AA001ABBFF /* Info.plist */,
 				496BF8E51EDB11BF001ABBFF /* ToDoItem.swift */,
+				490C3BC61EDCC77200E662BD /* Location.swift */,
 			);
 			path = TDDWithSwift;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			children = (
 				496BF8D81ED957AA001ABBFF /* TDDWithSwiftTests.swift */,
 				496BF8E31EDAFFBF001ABBFF /* ToDoItemTests.swift */,
+				490C3BCA1EDCCA4400E662BD /* LocationTests.swift */,
 				496BF8DA1ED957AA001ABBFF /* Info.plist */,
 			);
 			path = TDDWithSwiftTests;
@@ -207,6 +213,7 @@
 			files = (
 				496BF8C61ED957AA001ABBFF /* ViewController.swift in Sources */,
 				496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */,
+				490C3BC71EDCC77200E662BD /* Location.swift in Sources */,
 				496BF8E61EDB11BF001ABBFF /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496BF8E41EDAFFBF001ABBFF /* ToDoItemTests.swift in Sources */,
+				490C3BCB1EDCCA4400E662BD /* LocationTests.swift in Sources */,
 				496BF8D91ED957AA001ABBFF /* TDDWithSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +422,7 @@
 				496BF8DF1ED957AA001ABBFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496BF8E01ED957AA001ABBFF /* Build configuration list for PBXNativeTarget "TDDWithSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				496BF8E21ED957AA001ABBFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

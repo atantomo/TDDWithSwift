@@ -31,7 +31,21 @@ class ToDoItemTests: XCTestCase {
         XCTAssertEqual(item.itemDescription, "Bar",
                        "should set itemDescription")
     }
+
+    func test_Init_WhenGivenTimestamp_SetsTimestamp() {
+        let item = ToDoItem(title: "", timestamp: 0.0)
+        XCTAssertEqual(item.timestamp, 0.0, "should set timestamp")
+    }
+
+    func test_Init_WhenGivenLocation_SetsLocation() {
+        let location = Location(name: "Foo")
+        let item = ToDoItem(title: "", location: location)
+
+        XCTAssertEqual(item.location?.name, location.name,
+                       "should set location")
+    }
     
 }
 
-//  Open Project Navigator, and hold down the option key while clicking on ToDoItem.swift in the navigator to open it in the Assistant Editor
+// Open Project Navigator, and hold down the option key while clicking on ToDoItem.swift in the navigator to open it in the Assistant Editor
+// It's quite common to use a pattern like test_<method name>_<precondition>_<expected behavior>
