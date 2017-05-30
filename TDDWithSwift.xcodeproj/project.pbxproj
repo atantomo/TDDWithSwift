@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B4081A1EDCE4D80082EEF7 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B408191EDCE4D80082EEF7 /* ItemManager.swift */; };
+		20B4081C1EDCE4E30082EEF7 /* ItemManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B4081B1EDCE4E30082EEF7 /* ItemManagerTests.swift */; };
 		490C3BC71EDCC77200E662BD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C3BC61EDCC77200E662BD /* Location.swift */; };
 		490C3BCB1EDCCA4400E662BD /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C3BCA1EDCCA4400E662BD /* LocationTests.swift */; };
 		496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C31ED957AA001ABBFF /* AppDelegate.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B408191EDCE4D80082EEF7 /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		20B4081B1EDCE4E30082EEF7 /* ItemManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManagerTests.swift; sourceTree = "<group>"; };
 		490C3BC61EDCC77200E662BD /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		490C3BCA1EDCCA4400E662BD /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		496BF8C01ED957AA001ABBFF /* TDDWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +97,7 @@
 				496BF8CF1ED957AA001ABBFF /* Info.plist */,
 				496BF8E51EDB11BF001ABBFF /* ToDoItem.swift */,
 				490C3BC61EDCC77200E662BD /* Location.swift */,
+				20B408191EDCE4D80082EEF7 /* ItemManager.swift */,
 			);
 			path = TDDWithSwift;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				496BF8D81ED957AA001ABBFF /* TDDWithSwiftTests.swift */,
 				496BF8E31EDAFFBF001ABBFF /* ToDoItemTests.swift */,
 				490C3BCA1EDCCA4400E662BD /* LocationTests.swift */,
+				20B4081B1EDCE4E30082EEF7 /* ItemManagerTests.swift */,
 				496BF8DA1ED957AA001ABBFF /* Info.plist */,
 			);
 			path = TDDWithSwiftTests;
@@ -212,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496BF8C61ED957AA001ABBFF /* ViewController.swift in Sources */,
+				20B4081A1EDCE4D80082EEF7 /* ItemManager.swift in Sources */,
 				496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */,
 				490C3BC71EDCC77200E662BD /* Location.swift in Sources */,
 				496BF8E61EDB11BF001ABBFF /* ToDoItem.swift in Sources */,
@@ -224,6 +231,7 @@
 			files = (
 				496BF8E41EDAFFBF001ABBFF /* ToDoItemTests.swift in Sources */,
 				490C3BCB1EDCCA4400E662BD /* LocationTests.swift in Sources */,
+				20B4081C1EDCE4E30082EEF7 /* ItemManagerTests.swift in Sources */,
 				496BF8D91ED957AA001ABBFF /* TDDWithSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
