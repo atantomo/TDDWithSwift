@@ -18,6 +18,9 @@
 		493C33AA1EE57AF100ED0A5A /* InputViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C33A91EE57AF100ED0A5A /* InputViewControllerTests.swift */; };
 		493C33AC1EE57B7100ED0A5A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C33AB1EE57B7100ED0A5A /* InputViewController.swift */; };
 		494CF1111EE0CF6300DE7758 /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CF1101EE0CF6300DE7758 /* ItemCellTests.swift */; };
+		495166231EE6C86300379A8E /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495166221EE6C86300379A8E /* APIClientTests.swift */; };
+		495166251EE6CAC400379A8E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495166241EE6CAC400379A8E /* APIClient.swift */; };
+		495166271EE6CD0400379A8E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495166261EE6CD0400379A8E /* Token.swift */; };
 		496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C31ED957AA001ABBFF /* AppDelegate.swift */; };
 		496BF8C61ED957AA001ABBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C51ED957AA001ABBFF /* ViewController.swift */; };
 		496BF8C91ED957AA001ABBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BF8C71ED957AA001ABBFF /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 		493C33A91EE57AF100ED0A5A /* InputViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputViewControllerTests.swift; path = TDDWithSwift/InputViewControllerTests.swift; sourceTree = SOURCE_ROOT; };
 		493C33AB1EE57B7100ED0A5A /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		494CF1101EE0CF6300DE7758 /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
+		495166221EE6C86300379A8E /* APIClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		495166241EE6CAC400379A8E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		495166261EE6CD0400379A8E /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		496BF8C01ED957AA001ABBFF /* TDDWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496BF8C31ED957AA001ABBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496BF8C51ED957AA001ABBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,8 @@
 		492CEF041EDD8CD8002A5AE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				495166241EE6CAC400379A8E /* APIClient.swift */,
+				495166261EE6CD0400379A8E /* Token.swift */,
 				496BF8E51EDB11BF001ABBFF /* ToDoItem.swift */,
 				490C3BC61EDCC77200E662BD /* Location.swift */,
 				20B408191EDCE4D80082EEF7 /* ItemManager.swift */,
@@ -101,6 +109,7 @@
 		492CEF051EDD8F81002A5AE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				495166221EE6C86300379A8E /* APIClientTests.swift */,
 				496BF8E31EDAFFBF001ABBFF /* ToDoItemTests.swift */,
 				490C3BCA1EDCCA4400E662BD /* LocationTests.swift */,
 				20B4081B1EDCE4E30082EEF7 /* ItemManagerTests.swift */,
@@ -282,8 +291,10 @@
 				493C33A81EE5628D00ED0A5A /* ItemListViewController.swift in Sources */,
 				493C33AC1EE57B7100ED0A5A /* InputViewController.swift in Sources */,
 				49798DBC1EDEF57B00F7B222 /* ItemCell.swift in Sources */,
+				495166271EE6CD0400379A8E /* Token.swift in Sources */,
 				496BF8C61ED957AA001ABBFF /* ViewController.swift in Sources */,
 				497849C71EDEE32900426936 /* ItemListDataProvider.swift in Sources */,
+				495166251EE6CAC400379A8E /* APIClient.swift in Sources */,
 				20B4081A1EDCE4D80082EEF7 /* ItemManager.swift in Sources */,
 				496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */,
 				490C3BC71EDCC77200E662BD /* Location.swift in Sources */,
@@ -299,6 +310,7 @@
 				496BF8E41EDAFFBF001ABBFF /* ToDoItemTests.swift in Sources */,
 				492CEF071EDD8FA7002A5AE2 /* ItemListViewControllerTests.swift in Sources */,
 				490C3BCB1EDCCA4400E662BD /* LocationTests.swift in Sources */,
+				495166231EE6C86300379A8E /* APIClientTests.swift in Sources */,
 				497849C91EDEEC4700426936 /* ItemListDataProviderTests.swift in Sources */,
 				494CF1111EE0CF6300DE7758 /* ItemCellTests.swift in Sources */,
 				20B4081C1EDCE4E30082EEF7 /* ItemManagerTests.swift in Sources */,
