@@ -26,7 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -35,6 +36,16 @@
                BlueprintIdentifier = "496BF8D31ED957AA001ABBFF"
                BuildableName = "TDDWithSwiftTests.xctest"
                BlueprintName = "TDDWithSwiftTests"
+               ReferencedContainer = "container:TDDWithSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4967C4F21EEAD4D000CD0DB3"
+               BuildableName = "TDDWithSwiftUITests.xctest"
+               BlueprintName = "TDDWithSwiftUITests"
                ReferencedContainer = "container:TDDWithSwift.xcodeproj">
             </BuildableReference>
          </TestableReference>

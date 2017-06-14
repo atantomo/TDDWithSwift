@@ -14,6 +14,7 @@
 		4924C87F1EE4613C001B4148 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4924C87E1EE4613C001B4148 /* DetailViewControllerTests.swift */; };
 		492CEF071EDD8FA7002A5AE2 /* ItemListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492CEF061EDD8FA7002A5AE2 /* ItemListViewControllerTests.swift */; };
 		492CEF0A1EDD9291002A5AE2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492CEF091EDD9291002A5AE2 /* DetailViewController.swift */; };
+		493A01461EE81CEB00E385F3 /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A01451EE81CEB00E385F3 /* StoryboardTests.swift */; };
 		493C33A81EE5628D00ED0A5A /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C33A71EE5628D00ED0A5A /* ItemListViewController.swift */; };
 		493C33AA1EE57AF100ED0A5A /* InputViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C33A91EE57AF100ED0A5A /* InputViewControllerTests.swift */; };
 		493C33AC1EE57B7100ED0A5A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C33AB1EE57B7100ED0A5A /* InputViewController.swift */; };
@@ -21,6 +22,7 @@
 		495166231EE6C86300379A8E /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495166221EE6C86300379A8E /* APIClientTests.swift */; };
 		495166251EE6CAC400379A8E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495166241EE6CAC400379A8E /* APIClient.swift */; };
 		495166271EE6CD0400379A8E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495166261EE6CD0400379A8E /* Token.swift */; };
+		4967C4F61EEAD4D000CD0DB3 /* TDDWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967C4F51EEAD4D000CD0DB3 /* TDDWithSwiftUITests.swift */; };
 		496BF8C41ED957AA001ABBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C31ED957AA001ABBFF /* AppDelegate.swift */; };
 		496BF8C61ED957AA001ABBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BF8C51ED957AA001ABBFF /* ViewController.swift */; };
 		496BF8C91ED957AA001ABBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BF8C71ED957AA001ABBFF /* Main.storyboard */; };
@@ -35,6 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4967C4F81EEAD4D000CD0DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496BF8B81ED957AA001ABBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496BF8BF1ED957AA001ABBFF;
+			remoteInfo = TDDWithSwift;
+		};
 		496BF8D51ED957AA001ABBFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 496BF8B81ED957AA001ABBFF /* Project object */;
@@ -52,6 +61,7 @@
 		4924C87E1EE4613C001B4148 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewControllerTests.swift; path = ../TDDWithSwift/DetailViewControllerTests.swift; sourceTree = "<group>"; };
 		492CEF061EDD8FA7002A5AE2 /* ItemListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTests.swift; sourceTree = "<group>"; };
 		492CEF091EDD9291002A5AE2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		493A01451EE81CEB00E385F3 /* StoryboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardTests.swift; sourceTree = "<group>"; };
 		493C33A71EE5628D00ED0A5A /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		493C33A91EE57AF100ED0A5A /* InputViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputViewControllerTests.swift; path = TDDWithSwift/InputViewControllerTests.swift; sourceTree = SOURCE_ROOT; };
 		493C33AB1EE57B7100ED0A5A /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +69,9 @@
 		495166221EE6C86300379A8E /* APIClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		495166241EE6CAC400379A8E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		495166261EE6CD0400379A8E /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		4967C4F31EEAD4D000CD0DB3 /* TDDWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDWithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4967C4F51EEAD4D000CD0DB3 /* TDDWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDWithSwiftUITests.swift; sourceTree = "<group>"; };
+		4967C4F71EEAD4D000CD0DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496BF8C01ED957AA001ABBFF /* TDDWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496BF8C31ED957AA001ABBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496BF8C51ED957AA001ABBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4967C4F01EEAD4D000CD0DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		496BF8BD1ED957AA001ABBFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,11 +162,21 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		4967C4F41EEAD4D000CD0DB3 /* TDDWithSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4967C4F51EEAD4D000CD0DB3 /* TDDWithSwiftUITests.swift */,
+				4967C4F71EEAD4D000CD0DB3 /* Info.plist */,
+			);
+			path = TDDWithSwiftUITests;
+			sourceTree = "<group>";
+		};
 		496BF8B71ED957AA001ABBFF = {
 			isa = PBXGroup;
 			children = (
 				496BF8C21ED957AA001ABBFF /* TDDWithSwift */,
 				496BF8D71ED957AA001ABBFF /* TDDWithSwiftTests */,
+				4967C4F41EEAD4D000CD0DB3 /* TDDWithSwiftUITests */,
 				496BF8C11ED957AA001ABBFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,6 +186,7 @@
 			children = (
 				496BF8C01ED957AA001ABBFF /* TDDWithSwift.app */,
 				496BF8D41ED957AA001ABBFF /* TDDWithSwiftTests.xctest */,
+				4967C4F31EEAD4D000CD0DB3 /* TDDWithSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				496BF8D81ED957AA001ABBFF /* TDDWithSwiftTests.swift */,
+				493A01451EE81CEB00E385F3 /* StoryboardTests.swift */,
 				492CEF051EDD8F81002A5AE2 /* Model */,
 				492CEF081EDD90B0002A5AE2 /* Controller */,
 				496BF8DA1ED957AA001ABBFF /* Info.plist */,
@@ -188,6 +220,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4967C4F21EEAD4D000CD0DB3 /* TDDWithSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4967C4FC1EEAD4D000CD0DB3 /* Build configuration list for PBXNativeTarget "TDDWithSwiftUITests" */;
+			buildPhases = (
+				4967C4EF1EEAD4D000CD0DB3 /* Sources */,
+				4967C4F01EEAD4D000CD0DB3 /* Frameworks */,
+				4967C4F11EEAD4D000CD0DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4967C4F91EEAD4D000CD0DB3 /* PBXTargetDependency */,
+			);
+			name = TDDWithSwiftUITests;
+			productName = TDDWithSwiftUITests;
+			productReference = 4967C4F31EEAD4D000CD0DB3 /* TDDWithSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		496BF8BF1ED957AA001ABBFF /* TDDWithSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 496BF8DD1ED957AA001ABBFF /* Build configuration list for PBXNativeTarget "TDDWithSwift" */;
@@ -233,6 +283,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Andrew Tantomo";
 				TargetAttributes = {
+					4967C4F21EEAD4D000CD0DB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 496BF8BF1ED957AA001ABBFF;
+					};
 					496BF8BF1ED957AA001ABBFF = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -259,11 +314,19 @@
 			targets = (
 				496BF8BF1ED957AA001ABBFF /* TDDWithSwift */,
 				496BF8D31ED957AA001ABBFF /* TDDWithSwiftTests */,
+				4967C4F21EEAD4D000CD0DB3 /* TDDWithSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4967C4F11EEAD4D000CD0DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		496BF8BE1ED957AA001ABBFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +347,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4967C4EF1EEAD4D000CD0DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967C4F61EEAD4D000CD0DB3 /* TDDWithSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		496BF8BC1ED957AA001ABBFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +380,7 @@
 			files = (
 				496BF8E41EDAFFBF001ABBFF /* ToDoItemTests.swift in Sources */,
 				492CEF071EDD8FA7002A5AE2 /* ItemListViewControllerTests.swift in Sources */,
+				493A01461EE81CEB00E385F3 /* StoryboardTests.swift in Sources */,
 				490C3BCB1EDCCA4400E662BD /* LocationTests.swift in Sources */,
 				495166231EE6C86300379A8E /* APIClientTests.swift in Sources */,
 				497849C91EDEEC4700426936 /* ItemListDataProviderTests.swift in Sources */,
@@ -323,6 +395,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4967C4F91EEAD4D000CD0DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496BF8BF1ED957AA001ABBFF /* TDDWithSwift */;
+			targetProxy = 4967C4F81EEAD4D000CD0DB3 /* PBXContainerItemProxy */;
+		};
 		496BF8D61ED957AA001ABBFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 496BF8BF1ED957AA001ABBFF /* TDDWithSwift */;
@@ -350,6 +427,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4967C4FA1EEAD4D000CD0DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TDDWithSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Tantomo.TDDWithSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TDDWithSwift;
+			};
+			name = Debug;
+		};
+		4967C4FB1EEAD4D000CD0DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TDDWithSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Tantomo.TDDWithSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TDDWithSwift;
+			};
+			name = Release;
+		};
 		496BF8DB1ED957AA001ABBFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,6 +599,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4967C4FC1EEAD4D000CD0DB3 /* Build configuration list for PBXNativeTarget "TDDWithSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4967C4FA1EEAD4D000CD0DB3 /* Debug */,
+				4967C4FB1EEAD4D000CD0DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		496BF8BB1ED957AA001ABBFF /* Build configuration list for PBXProject "TDDWithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

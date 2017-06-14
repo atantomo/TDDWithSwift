@@ -41,7 +41,6 @@ class APIClient {
         guard let encodedPassword = password.addingPercentEncoding(
             withAllowedCharacters: allowedCharacters) else { fatalError() }
 
-
         let query = "username=\(encodedUsername)&password=\(encodedPassword)"
         guard let url = URL(string:
             "https://awesometodos.com/login?\(query)") else {

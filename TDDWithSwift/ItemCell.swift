@@ -53,23 +53,3 @@ class ItemCell: UITableViewCell {
 //        // Configure the view for the selected state
 //    }
 }
-
-struct Formatter {
-    private static let dateFormatter = DateFormatter()
-
-    static func getDateLabel(date: Date?) -> String {
-
-        return getDateDisplayLabelUsing(date: date, format: "MM/dd/YYYY")
-    }
-
-    private static func getDateDisplayLabelUsing(date: Date?, format: String) -> String {
-
-        guard let date = date else {
-            return ""
-        }
-
-        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
-        dateFormatter.dateFormat = format
-        return dateFormatter.string(from: date)
-    }
-}

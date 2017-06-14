@@ -74,9 +74,26 @@ class InputViewController: UIViewController {
                             coordinate: placeMark?.location?.coordinate)) 
                     
                     
-                    self.itemManager?.add(item) 
+                    DispatchQueue.main.async(execute: {
+                        self.itemManager?.add(item)
+                        self.dismiss(animated: true)
+                    })
                 } 
-            } 
+            } else {
+                let item = ToDoItem(title: titleString,
+                                    itemDescription: descriptionString,
+                                    timestamp: date?.timeIntervalSince1970,
+                                    location: nil)
+                self.itemManager?.add(item)
+                dismiss(animated: true) 
+            }
+        } else {
+            let item = ToDoItem(title: titleString,
+                                itemDescription: descriptionString,
+                                timestamp: date?.timeIntervalSince1970,
+                                location: nil)
+            self.itemManager?.add(item)
+            dismiss(animated: true)
         }
     }
 
